@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> ahmed's Chat App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+    <nav class="bg-gray-400 h-[15vh] w-full sm:h-[10vh]">
+    <h1 class="text-4xl font-bold sm:text-4xl text-white mx-10 my-1 ">Chat App</h1>
+    </nav>
+
+    
+    <div id="message" class="bg-gray-500 flex-grow flex flex-col overflow-auto p-4">
+        
+    </div>
+
+
+    <footer class="bg-black h-[10vh] w-full flex justify-center items-center px-4 sm:px-6">
+        <input id="msg" class="bg-transparent text-white border border-white h-[6vh] w-[65vw] sm:w-[70vw] md:w-[75vw] rounded-xl text-base sm:text-xl p-3" type="text" placeholder="Enter the message">
+        <button onclick="handleSend()" class="bg-black text-white ml-4 h-[6vh] w-[18vw] sm:w-[10vw] md:w-[6vw] rounded-lg border border-black text-sm sm:text-base">Send</button>
+    </footer>
+
+    <script src="new.js"></script>
+</body>
+</html>
